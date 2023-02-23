@@ -1,7 +1,7 @@
 import boto3
 import sys
 
-region = sys.argv[1]
+#region = sys.argv[1]
 accesskey = sys.argv[2]
 secretkey = sys.argv[3]
 
