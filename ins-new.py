@@ -4,7 +4,7 @@ import sys
 region = sys.argv[1]
 accesskey = sys.argv[2]
 #secretkey = sys.argv[3]
-accesskey
+
 
 #client = boto3.client('ec2',region_name=region,aws_access_key_id=accesskey,aws_secret_access_key=secretkey)
 client = boto3.client('ec2',region_name=region,aws_access_key_id=accesskey,aws_secret_access_key="UOdm+CfSOj4Ydmso0FxklmzuBv0AfMgSB+jXmQBw")
